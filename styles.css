@@ -29,7 +29,7 @@ li {
   padding-left: 20px;
 }
 
-:is(.application, .experience) header * {
+:is(.application, .experience, .certification) header * {
   font-size: inherit;
 }
 
@@ -61,13 +61,13 @@ section h2 {
 
 */
 
-.application header {
+main header {
   display: flex;
   align-items: center;
   font-size: 18px;
 }
 
-.application h3 {
+h3 {
   margin-right: 4px;
 }
 
