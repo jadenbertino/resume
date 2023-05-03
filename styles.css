@@ -21,6 +21,14 @@ a, a:visited {
   size: 8.5in 11in; /* US letter size */
 }
 
+.divider {
+  margin: 0 4px;
+}
+
+li {
+  padding-left: 20px;
+}
+
 /* 
 
     HEADER
@@ -29,4 +37,31 @@ a, a:visited {
 
 .contact-info {
   display: flex;
+}
+
+/* 
+
+    TECHNICAL SKILLS
+
+*/
+
+/* 
+
+    APPLICATIONS DEVELOPED
+
+*/
+
+.application header {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.application h3,
+.application .links > * {
+  font-size: inherit;
+}
+
+.application h3 {
+  margin-right: 4px;
 }
