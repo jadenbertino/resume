@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="./assets/favicon.png" type="image/png" />
     <script src="https://kit.fontawesome.com/ba6fc831d0.js" crossorigin="anonymous"></script>
     <title>Resume</title>
   </head>
   <body>
-    <header>
+    <section id="profile">
       <h1 class="name">Jaden Bertino</h1>
-      <h3 class="job-title">Web Developer</h3>
+      <h3 class="position">Web Developer</h3>
       <div class="contact-info">
         <div class="email">
           <i class="fa-solid fa-envelope"></i>
@@ -39,131 +45,142 @@
           </a>
         </div>
       </div>
-    </header>
-    <main>
-      <section id="technical-skills">
-        <h2>Technical Skills</h2>
-        <p>
-          <strong>Strong</strong>JavaScript, Express, React, JSON, Node.js, HTML, CSS, Bootstrap
-        </p>
-        <p>
-          <strong>Experienced</strong>JavaScript, Express, React, JSON, Node.js, HTML, CSS,
-          Bootstrap
-        </p>
-        <p><strong>Tools</strong>JavaScript, Express, React, JSON, Node.js, HTML, CSS, Bootstrap</p>
-      </section>
-      <section id="applications-developed">
-        <h2>Applications Developed</h2>
-        <div class="application">
-          <header>
-            <h3>Hourglass Calendar</h3>
-            <div class="links">
-              <span class="divider">—</span>
-              <a href="https://github.com/jadenbertino/hourglass-calendar">GitHub</a>
-              <span class="divider">|</span>
-              <a href="https://hourglass-calendar.web.app/">Live</a>
-            </div>
-          </header>
-          <em>Application that helps users to create & manage their upcoming events</em>
-          <ul>
-            <li>
-              Built calendar app that enables users to create, view, edit, and delete upcoming
-              events.
-            </li>
-            <li>
-              Installed backend NoSQL database to ensure events are always up to date and sync
-              across all devices.
-            </li>
-            <li>
-              Developed daily, weekly, and monthly views so users can display events in various time
-              frames
-            </li>
-          </ul>
-        </div>
-        <div class="application">
-          <header>
-            <h3>Library</h3>
-            <div class="links">
-              <span class="divider">—</span>
-              <a href="https://github.com/jadenbertino/library-ecommerce">GitHub</a>
-              <span class="divider">|</span>
-              <a href="https://library-ecommerce.web.app/">Live</a>
-            </div>
-          </header>
-          <em>E-Commerce bookstore that helps readers discover their new favorite books</em>
-          <ul>
-            <li>
-              Built custom payment processor using the Stripe API, ensuring fast and secure
-              transactions for customers.
-            </li>
-            <li>
-              Integrated NoSQL database with a user interface to display book title, author, price,
-              and cover image.
-            </li>
-            <li>
-              Designed skeleton loading state to improve user experience, minimizing the time it
-              takes for the website to load and allowing users to navigate the website seamlessly.
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section id="professional-experience">
-        <h2>Professional Experience</h2>
-        <div class="experience">
-          <header>
-            <h3 class="position">Soccer Coach</h3>
-            <span class="company">— Irvine Soccer Academy</span>
-            <span class="dates">04/2021 - Current</span>
-          </header>
-          <ul>
-            <li>
-              Directed teams of 15-20 players through training sessions to improve technical and
-              teamwork abilities.
-            </li>
-            <li>
-              Communicated with players, parents and staff to ensure fast-paced training sessions
-              ran on schedule.
-            </li>
-            <li>
-              Mentored new staff to ensure they had the necessary skills and knowledge to deliver
-              high-quality coaching.
-            </li>
-          </ul>
-        </div>
-        <div class="experience">
-          <header>
-            <h3 class="position">Math Tutor</h3>
-            <span class="company">— Self-Employed</span>
-            <span class="dates">06/2021 — 12/2021</span>
-          </header>
-          <ul>
-            <li>Implemented study techniques that boosted average student grades by 22%.</li>
-            <li>
-              Developed personalized lesson plans and instructed students in private sessions.
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section id="education">
-        <h2>Education</h2>
-        <div class="certification">
-          <header>
-            <h3>CS50 Introduction To Computer Science</h3>
-            <span>— Harvard</span>
-          </header>
-        </div>
-        <div class="certification">
-          <header>
-            <h3>Web Development Bootcamp</h3>
-            <span>— Learning Fuze</span>
-          </header>
-          <p>
-            Gainted extensive experience in full-stack development through immersive, project-based
-            learning. Throughout the 36-week program, I invested over 800 hours in developing
-            applications in a simulated agile work environment.
+    </section>
+    <section id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="highlight skill-stack">
+        <div class="highlight-title-wrapper">
+          <h3 class="highlight-title">Strong</h3>
+          <p class="highlight-subtitle">
+            — JavaScript, Express, React, JSON, Node.js, HTML, CSS, Bootstrap
           </p>
         </div>
-      </section>
-    </main>
+      </div>
+      <div class="highlight skill-stack">
+        <div class="highlight-title-wrapper">
+          <strong>Experienced</strong>
+          <span class="highlight-subtitle"
+            >— JavaScript, Express, React, JSON, Node.js, HTML, CSS, Bootstrap</span
+          >
+        </div>
+      </div>
+      <div class="highlight skill-stack">
+        <div class="highlight-title-wrapper">
+          <strong>Tools</strong>
+          <span class="highlight-subtitle"
+            >— JavaScript, Express, React, JSON, Node.js, HTML, CSS, Bootstrap</span
+          >
+        </div>
+      </div>
+    </section>
+    <section id="applications-developed">
+      <h2 class="section-title">Applications Developed</h2>
+      <div class="highlight">
+        <header class="highlight-title-wrapper">
+          <h3 class="highlight-title">Hourglass Calendar</h3>
+          <div class="highlight-subtitle">
+            —
+            <a href="https://github.com/jadenbertino/hourglass-calendar">GitHub</a>
+            |
+            <a href="https://hourglass-calendar.web.app/">Live</a>
+          </div>
+        </header>
+        <em>Application that helps users to create & manage upcoming events</em>
+        <ul>
+          <li>
+            Built calendar app that enables users to create, view, edit, and delete upcoming events.
+          </li>
+          <li>
+            Installed backend NoSQL database to ensure events are always up to date and sync across
+            all devices.
+          </li>
+          <li>
+            Developed daily, weekly, and monthly views so users can display events in various time
+            frames
+          </li>
+        </ul>
+      </div>
+      <div class="highlight">
+        <header class="highlight-title-wrapper">
+          <h3 class="highlight-title">Library</h3>
+          <div class="highlight-subtitle">
+            —
+            <a href="https://github.com/jadenbertino/library-ecommerce">GitHub</a>
+            <span class="divider">|</span>
+            <a href="https://library-ecommerce.web.app/">Live</a>
+          </div>
+        </header>
+        <em>E-Commerce bookstore that helps readers discover new books</em>
+        <ul>
+          <li>
+            Built custom payment processor using the Stripe API, ensuring fast and secure
+            transactions for customers.
+          </li>
+          <li>
+            Integrated NoSQL database with a user interface to display book title, author, price,
+            and cover image.
+          </li>
+          <li>
+            Designed skeleton loading state to improve user experience, minimizing the time it takes
+            for the website to load and allowing users to navigate the website seamlessly.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="professional-experience">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="highlight">
+        <header class="highlight-title-wrapper">
+          <h3 class="highlight-title">Soccer Coach</h3>
+          <span class="highlight-subtitle">— Irvine Soccer Academy</span>
+          <span class="dates">04/2021 - Current</span>
+        </header>
+        <ul>
+          <li>
+            Directed teams of 15-20 players through training sessions to improve technical and
+            teamwork abilities.
+          </li>
+          <li>
+            Communicated with players, parents and staff to ensure fast-paced training sessions ran
+            on schedule.
+          </li>
+          <li>
+            Mentored new staff to ensure they had the necessary skills and knowledge to deliver
+            high-quality coaching.
+          </li>
+        </ul>
+      </div>
+      <div class="highlight">
+        <header class="highlight-title-wrapper">
+          <h3 class="highlight-title">Math Tutor</h3>
+          <span class="highlight-subtitle">— Self-Employed</span>
+          <span class="dates">06/2021 — 12/2021</span>
+        </header>
+        <ul>
+          <li>Implemented study techniques that boosted average student grades by 22%.</li>
+          <li>Developed personalized lesson plans and instructed students in private sessions.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="highlight">
+        <header class="highlight-title-wrapper">
+          <h3 class="highlight-title">CS50 Introduction To Computer Science</h3>
+          <span class="highlight-subtitle">— Harvard</span>
+        </header>
+      </div>
+      <div class="highlight">
+        <header class="highlight-title-wrapper">
+          <h3 class="highlight-title">Web Development Bootcamp</h3>
+          <span class="highlight-subtitle">— Learning Fuze</span>
+        </header>
+        <em>
+          Gained extensive experience in full-stack development through immersive, project-based
+          learning. Spent 36-weeks and over 800 hours developing applications in a simulated agile
+          work environment.
+        </em>
+      </div>
+    </section>
   </body>
 </html>

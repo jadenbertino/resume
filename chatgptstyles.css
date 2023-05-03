@@ -1,0 +1,179 @@
+
+
+/* Center the header at the top of the page */
+header {
+  text-align: center;
+}
+
+/* Left-align everything else */
+main {
+  margin-left: 20px;
+}
+
+/* Style the name and job title */
+.name {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.job-title {
+  margin-top: 5px;
+}
+
+/* Style the contact info */
+.contact-info {
+  margin-top: 20px;
+}
+
+.email,
+.phone,
+.location {
+  margin-bottom: 10px;
+}
+
+.github,
+.linkedin {
+  margin-bottom: 20px;
+}
+
+.fa-solid,
+.fa-brands {
+  margin-right: 5px;
+}
+
+/* Style the technical skills section */
+#technical-skills {
+  margin-top: 20px;
+}
+
+#technical-skills h2 {
+  margin-bottom: 10px;
+}
+
+#technical-skills p {
+  margin: 0;
+}
+
+#technical-skills strong {
+  font-weight: bold;
+}
+
+/* Style the applications developed section */
+#applications-developed {
+  margin-top: 20px;
+}
+
+#applications-developed h2 {
+  margin-bottom: 10px;
+}
+
+.application {
+  margin-bottom: 20px;
+}
+
+.application header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.application header h3 {
+  margin: 0;
+}
+
+.application header .links {
+  font-size: 14px;
+}
+
+.application header .links a {
+  text-decoration: none;
+  color: black;
+  margin: 0 5px;
+}
+
+.application header .links .divider {
+  color: #999;
+}
+
+.application em {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.application ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.application li {
+  margin-bottom: 5px;
+}
+
+/* Style the professional experience section */
+#professional-experience {
+  margin-top: 20px;
+}
+
+#professional-experience h2 {
+  margin-bottom: 10px;
+}
+
+.experience {
+  margin-bottom: 20px;
+}
+
+.experience header {
+  margin-bottom: 5px;
+}
+
+.experience header h3 {
+  margin: 0;
+}
+
+.experience header .company,
+.experience header .dates {
+  font-size: 14px;
+  color: #999;
+}
+
+.experience ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.experience li {
+  margin-bottom: 5px;
+}
+
+/* Style the education section */
+#education {
+  margin-top: 20px;
+}
+
+#education h2 {
+  margin-bottom: 10px;
+}
+
+.certification {
+  margin-bottom: 20px;
+}
+
+.certification header {
+  margin-bottom: 5px;
+}
+
+.certification header h3 {
+  margin: 0;
+}
+
+.certification header span {
+  font-size: 14px;
+  color: #999;
+}
+
+.certification p {
+  margin-top: 0;
+}
