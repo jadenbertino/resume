@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+@page {
+  size: 8.5in 11in; /* US letter size */
+}
