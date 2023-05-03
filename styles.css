@@ -29,6 +29,16 @@ li {
   padding-left: 20px;
 }
 
+:is(.application, .experience) header * {
+  font-size: inherit;
+}
+
+section h2 {
+  padding-bottom: 2px;
+  border-bottom: 2px solid lightblue;
+  margin-bottom: 8px;
+}
+
 /* 
 
     HEADER
@@ -57,11 +67,25 @@ li {
   font-size: 18px;
 }
 
-.application h3,
-.application .links > * {
-  font-size: inherit;
-}
-
 .application h3 {
   margin-right: 4px;
+}
+
+/* 
+
+    PROFESSIONAL EXPERIENCE
+
+*/
+
+.experience header {
+  display: flex;
+  align-items: center;
+}
+
+.experience header .company {
+  margin-left: 4px;
+}
+
+.experience header .dates {
+  margin-left: auto;
 }
