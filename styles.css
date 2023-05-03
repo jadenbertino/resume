@@ -20,3 +20,13 @@ a, a:visited {
 @page {
   size: 8.5in 11in; /* US letter size */
 }
+
+/* 
+
+    HEADER
+
+*/
+
+.contact-info {
+  display: flex;
+}
