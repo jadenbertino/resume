@@ -109,6 +109,10 @@ ul {
   text-decoration: underline;
 }
 
+#applications strong {
+  font-weight: 600;
+}
+
 .experience header .company {
   margin-left: 4px;
 }
