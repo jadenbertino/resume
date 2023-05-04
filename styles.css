@@ -1,3 +1,7 @@
+:root {
+  --blue-color: #2867BF;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,10 +26,6 @@ a, a:visited {
 
 ul {
   margin-left: 20px;
-}
-
-:root {
-  --blue-color: #2867BF;
 }
 
 /* 
@@ -102,6 +102,11 @@ ul {
 
 #applications ul {
   margin-top: 2px;
+}
+
+#applications :is(a, a:visited) {
+  color: var(--blue-color);
+  text-decoration: underline;
 }
 
 .experience header .company {
