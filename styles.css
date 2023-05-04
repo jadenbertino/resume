@@ -8,7 +8,7 @@ body {
   font-size: 12pt;
   line-height: 1.3;
   font-family: "Source Sans Pro", sans-serif;
-  margin: 16mm;
+  margin: 12mm;
 }
 
 input, select, textarea, button {
@@ -18,11 +18,6 @@ input, select, textarea, button {
 a, a:visited {
   text-decoration: none;
   color: inherit;
-}
-
-@page {
-  size: A4;
-  margin: 0;
 }
 
 ul {
@@ -38,6 +33,11 @@ ul {
     LAYOUT
 
 */
+
+@page {
+  size: A4;
+  margin: 0;
+}
 
 .section-title {
   margin-top: 16px;
@@ -97,7 +97,11 @@ ul {
 }
 
 .skill-stack {
-  margin-top: 0px;
+  margin-top: 4px;
+}
+
+#applications ul {
+  margin-top: 2px;
 }
 
 .experience header .company {
