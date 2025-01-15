@@ -75,6 +75,11 @@ body {
 
 */
 
+.title {
+  text-align: center;
+  color: #374151;
+}
+
 #profile :is(.name, .position) {
   text-align: center;
   line-height: 1.3;
