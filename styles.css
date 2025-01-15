@@ -1,5 +1,5 @@
 :root {
-  --blue-color: #2867BF;
+  --blue-color: #2867bf;
 }
 
 * {
@@ -8,11 +8,15 @@
   box-sizing: border-box;
 }
 
-input, select, textarea, button {
+input,
+select,
+textarea,
+button {
   font-family: inherit;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
   color: inherit;
 }
@@ -30,7 +34,7 @@ ul {
 body {
   font-size: 12pt;
   line-height: 1.4;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   padding: 8mm 10mm;
 }
 
@@ -100,7 +104,8 @@ body {
 }
 
 .github span,
-.linkedin span {
+.linkedin span,
+.portfolio span {
   text-decoration: underline;
 }
 
